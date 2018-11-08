@@ -31,6 +31,7 @@
   display: flex;
   flex-direction: row;
   width: 100vw;
+  height: calc(100% - 90px);
   font-family: Roboto;
 }
 
@@ -60,8 +61,13 @@ a {
 a:hover {
   color: white;
 }
-a:active {
+.Section_1 a:active {
   border-bottom: solid 2px green;
+}
+
+.Menu_top div:hover {
+  color: white;
+  border-left: solid green 3px;
 }
 
 /* MENU TOP */
@@ -151,10 +157,38 @@ a:active {
 
 /* PLAYBAR FOOTER */
 
+footer {
+  color: #b3b3b3;
+  font-family: Roboto;
+}
 .playFLEX_bar {
   width: 100%;
-  height: 15vh;
+  height: 90px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding: 20px;
+  color: #4d5050;
+}
+.control_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.text_control {
+  padding: 0 15px 0 10px;
+}
+.control_center {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.play_button {
+  font-size: 40px;
+}
+.button {
+  padding: 0 10px 5px 10px;
+  line-height: 10px;
 }
