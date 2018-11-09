@@ -31,8 +31,9 @@
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: calc(100% - 90px);
+  height: calc(100vh - 90px);
   font-family: Roboto;
+  overflow: scroll;
 }
 
 /* Navbar LEFT */
@@ -69,11 +70,14 @@ a:hover {
   color: white;
   border-left: solid green 3px;
 }
+#selection {
+  color: green;
+  text-decoration-color: green;
+}
 
 /* MENU TOP */
 
 .Menu_top {
-  height: 20%;
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
@@ -86,6 +90,10 @@ a:hover {
   margin-left: 5px;
 }
 /* MENU LIBRARY */
+.Menu_Library {
+  width: 100%;
+  margin-bottom: 30px;
+}
 .Menu_Library div {
   height: 10%;
   padding: 4px;
@@ -99,7 +107,7 @@ a:hover {
 }
 /* MENU BOTTOM */
 .Menu_Bottom {
-  height: 70%;
+  height: 60%;
   margin-top: 150px;
   font-size: 12px;
 }
@@ -116,6 +124,7 @@ a:hover {
 .Section_1 {
   width: 85%;
   color: #b3b3b3;
+  overflow: scroll;
 }
 .HeaderFLEX_Nav {
   display: flex;
@@ -138,6 +147,7 @@ a:hover {
 .Daily_mix {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-content: flex-end;
   margin: 25px;
