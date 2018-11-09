@@ -33,7 +33,7 @@
   width: 100vw;
   height: calc(100vh - 90px);
   font-family: Roboto;
-  overflow: scroll;
+  overflow: visible;
 }
 
 /* Navbar LEFT */
@@ -44,8 +44,7 @@
   justify-content: center;
   width: 15%;
   height: 100%;
-  margin: 15px;
-  overflow: hidden;
+  overflow: visible;
 }
 a {
   text-decoration: none;
@@ -107,7 +106,7 @@ a:hover {
 }
 /* MENU BOTTOM */
 .Menu_Bottom {
-  height: 60%;
+  height: 50%;
   margin-top: 150px;
   font-size: 12px;
 }
